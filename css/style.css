@@ -1,0 +1,141 @@
+:root {
+    --marron1: #D1CFC3;
+    --marron2: #B5B19A;
+    --marron3: #615F52;
+}
+
+.tabla {
+    border-collapse: collapse;
+    border: 6px solid var(--marron3);
+    border-radius: 20px;
+    
+}
+
+
+#nuevotitulo {
+    font-size: 5rem;
+    margin: 2rem;
+    text-align: center;
+    color: var(--negro);
+    text-shadow: 3px 0 0 var(--blanco), -3px 0 0 var(--blanco), 0 3px 0 var(--blanco), 0 -3px 0 var(--blanco), 2px 2px var(--blanco), -2px -2px 0 var(--blanco), 2px -2px 0 var(--blanco), -2px 2px 0 var(--blanco);
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+h2
+{
+    margin-top: -10px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+td {
+    width: 55px;
+    height: 55px;
+    border: 2px solid var(--marron2);
+    background-color: var(--marron1);
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    color: var(--marron3);
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    gap: 20px;
+}
+
+li {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.alinear {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    font-size: 2rem;
+    margin-top: -20px;
+}
+
+.tachado
+{
+    text-decoration: line-through;
+}
+
+.verde
+{
+    background-color:var(--verde) ;
+    color: var(--marron3);
+}
+.azul
+{
+    background-color:var(--azul) ;
+    color: var(--marron3);
+}
+.amarillo
+{
+    background-color:var(--amarillo) ;
+    color: var(--marron3);
+}
+.rojo
+{
+    background-color:var(--rojo) ;
+    color: white;
+}
+
+.rosa
+{
+    background-color:var(--rosa) ;
+    color: var(--marron3);
+}
+.rojo-oscuro
+{
+    background-color:var(--rojo-oscuro) ;
+    color: white;
+}
+
+.naranja
+{
+    background-color:#FF9B56 ;
+    color: var(--marron3);
+}
+
+.violeta
+{
+    background-color:#C988F3 ;
+    color: white;
+}
+.marron
+{
+    background-color:#C88F65 ;
+    color: var(--marron3);
+}
+
+.btn
+{
+    margin-top: 25px;
+}
+canvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 33;
+    pointer-events: none;
+}
